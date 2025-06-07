@@ -14,7 +14,7 @@ services:
     image: openmrs/openmrs-reference-application-3-frontend:${TAG:-qa}
     restart: "unless-stopped"
     environment:
-      SPA_PATH: /openmrs/spa
+      SPA_PATH: " "
       API_URL: /openmrs
       # API_URL: /openmrs
       SPA_CONFIG_URLS: /openmrs/spa/config-core_demo.json
